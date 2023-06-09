@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ESTILO.css">
+</head>
+<body>
+<div>
+    <form method="get" action="FORMULARIO.php">
+        NÚMERO: <input type="number" name="num" required><br/>
+
+        <fieldset><legend>OPERAÇÃO:</legend>
+            <input type="radio" name="oper" id="dobro" value="1" checked>
+            <label for="dobro">DOBRO</label>
+
+            <input type="radio" name="oper" id="cubo" value="2">
+            <label for="cubo">CUBO</label>
+
+            <input type="radio" name="oper" id="raiz" value="3">
+            <label for="raiz">RAIZ</label>
+        </fieldset>
+
+        <input type="submit" value="CALCULAR" class="botao">
+    </form>
+</div>
+</body>
+</html>
