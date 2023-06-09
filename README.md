@@ -154,6 +154,46 @@ Nesse exemplo, temos quatro variáveis simples declaradas:
 * A variável $ativo armazena um valor booleano com o valor verdadeiro (true).
 As variáveis em PHP são dinamicamente tipadas, o que significa que não é necessário especificar o tipo de dados ao declará-las. O PHP deduz automaticamente o tipo de acordo com o valor atribuído. Você pode atribuir valores diferentes a uma variável ao longo do código, independentemente do tipo de dado inicial. É importante lembrar que as variáveis em PHP são sensíveis a maiúsculas e minúsculas. Ou seja, $nome e $Nome seriam tratadas como variáveis diferentes. Além disso, o símbolo de dólar ($) deve ser usado sempre que você quiser referenciar ou acessar o valor de uma variável em PHP.
 
+Em PHP, podemos utilizar a função `fgets()` para realizar a entrada de dados pelo usuário através da linha de comando. Essa função lê uma linha de texto digitada pelo usuário e retorna uma string com o valor lido.
+
+Aqui está um exemplo de como realizar a entrada de dados em PHP:
+```php
+<?php
+// Entrada de um número inteiro
+echo "Digite um número inteiro: ";
+$numeroInteiro = fgets(STDIN);
+$numeroInteiro = intval($numeroInteiro);
+echo "Você digitou o número inteiro: " . $numeroInteiro . PHP_EOL;
+
+// Entrada de um número decimal
+echo "Digite um número decimal: ";
+$numeroDecimal = fgets(STDIN);
+$numeroDecimal = floatval($numeroDecimal);
+echo "Você digitou o número decimal: " . $numeroDecimal . PHP_EOL;
+
+// Entrada de uma string
+echo "Digite seu nome: ";
+$nome = fgets(STDIN);
+echo "Olá, " . $nome;
+
+// Entrada de um caractere
+echo "Digite um caractere: ";
+$caractere = fgets(STDIN);
+$caractere = trim($caractere);
+if (strlen($caractere) == 1) {
+    echo "Você digitou o caractere: " . $caractere . PHP_EOL;
+} 
+else {
+    echo "Entrada inválida. Certifique-se de digitar apenas um caractere." . PHP_EOL;
+}
+?>
+```
+Neste exemplo, utilizamos a função `fgets(STDIN)` para ler a entrada de dados do usuário. Em seguida, utilizamos as funções `intval()` e `floatval()` para converter a string lida para os tipos int e float, respectivamente.
+
+É importante notar que a função `fgets()` lê toda a linha digitada pelo usuário, incluindo a quebra de linha ao final. Para remover a quebra de linha, utilizamos a função `trim()`.
+
+Ao executar o código, ele irá solicitar ao usuário que digite os valores desejados e, em seguida, imprimirá os valores lidos na saída.
+
 ## 2) ESTRUTURA CONDICIONAL:
 ### ESTRUTURA IF-ELSE:
 No PHP, existem algumas estruturas condicionais que você pode usar para controlar o fluxo de execução do seu código. As estruturas condicionais mais comuns são o if, else if e else. Aqui está um exemplo de como usar essas estruturas condicionais em PHP:
@@ -379,6 +419,42 @@ $cachorro->emitirSom(); // Output: O cachorro late.
 $cachorro->correr(); // Output: O cachorro está correndo.
 ````
 Neste exemplo, temos a classe Animal, que representa uma abstração genérica de um animal, e a classe Mamifero, que herda os atributos e métodos da classe Animal e adiciona um atributo $corPelo e um método amamentar. Em seguida, temos a classe Cachorro, que herda os atributos e métodos da classe Mamifero e adiciona um método correr. Essas classes demonstram a herança em PHP. Além disso, as classes Mamifero e Cachorro têm um método emitirSom que é uma forma de polimorfismo, pois cada classe implementa sua própria versão desse método. Essa classe em PHP incorpora os pilares da programação orientada a objetos, mostrando o uso de herança, encapsulamento, polimorfismo e abstração. Esses conceitos são fundamentais para organizar e estruturar o código de forma eficiente, reutilizável e orientada a objetos.
+
+## 7) INTEGRAÇÃO COM HTML:
+No PHP, é possível integrar o código PHP diretamente em um documento HTML, permitindo a criação de páginas dinâmicas. Para isso, basta utilizar as tags especiais do PHP `<?php` e `?>` para delimitar o código PHP dentro do documento HTML.
+
+Aqui está um exemplo de como integrar o PHP ao HTML:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de PHP integrado ao HTML</title>
+</head>
+<body>
+    <h1>Bem-vindo ao meu site</h1>
+
+    <?php
+    // Código PHP
+    $nome = "João";
+    echo "<p>Olá, $nome! Seja bem-vindo!</p>";
+    ?>
+
+    <p>Este é um parágrafo HTML.</p>
+
+    <?php
+    // Mais código PHP
+    $idade = 25;
+    echo "<p>Você tem $idade anos.</p>";
+    ?>
+
+</body>
+</html>
+```
+No exemplo acima, utilizamos a tag `<?php` para iniciar o código PHP e a tag `?>` para encerrá-lo. Entre essas tags, podemos escrever qualquer código PHP que desejamos. No exemplo, atribuímos um valor à variável `$nome` e exibimos uma mensagem de boas-vindas com o valor da variável usando a função `echo`. Em seguida, escrevemos um parágrafo HTML normalmente, e depois, novamente dentro das tags PHP, atribuímos um valor à variável `$idade` e a exibimos em outro parágrafo HTML.
+
+Ao abrir o arquivo no navegador, o código PHP será executado no servidor antes de enviar a resposta para o navegador. Assim, as partes do código PHP serão processadas e os resultados serão exibidos no documento HTML gerado.
+
+Dessa forma, é possível criar páginas dinâmicas, onde o conteúdo pode variar de acordo com a lógica definida no código PHP.
 
 # 💖CARACTERISTICAS DA LINGUAGEM:
 ## ❤POSITIVAS:
