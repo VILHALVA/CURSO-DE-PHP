@@ -293,7 +293,7 @@ while ($i < 5);
 ````
 Nesse exemplo, o do-while é utilizado para imprimir os números de 0 a 4. O bloco de código é executado pelo menos uma vez, e a condição $i < 5 é verificada após cada iteração. Enquanto a condição for verdadeira, o bloco de código continuará sendo executado.
 
-### 4) ESTRUTURA FOREACH:
+### ESTRUTURA FOREACH:
 Usado para iterar sobre arrays:
 ````php
 $frutas = array("maçã", "banana", "laranja");
@@ -455,6 +455,88 @@ No exemplo acima, utilizamos a tag `<?php` para iniciar o código PHP e a tag `?
 Ao abrir o arquivo no navegador, o código PHP será executado no servidor antes de enviar a resposta para o navegador. Assim, as partes do código PHP serão processadas e os resultados serão exibidos no documento HTML gerado.
 
 Dessa forma, é possível criar páginas dinâmicas, onde o conteúdo pode variar de acordo com a lógica definida no código PHP.
+
+**FORMULÁRIOS:**
+
+Aqui está um exemplo de um formulário em HTML que envia os dados para um script PHP no servidor:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulário</title>
+  <style>
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 5px;
+    }
+    .form-group button {
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Formulário de Contato</h2>
+    <form action="processar-formulario.php" method="POST">
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+```
+Neste exemplo, temos um formulário de contato similar ao exemplo anterior. A diferença é que o atributo `action` do elemento `<form>` foi definido como `"processar-formulario.php"`, que é o nome do arquivo PHP onde iremos processar os dados do formulário.
+
+Agora, vamos criar o script PHP `processar-formulario.php` para receber os dados do formulário e realizar o processamento necessário. Crie um arquivo chamado `processar-formulario.php` com o seguinte conteúdo:
+```php
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+  $name = $_POST['name'];
+  $email = $_POST['email'];
+  $message = $_POST['message'];
+
+  // Aqui você pode realizar as ações necessárias com os dados do formulário
+  // Por exemplo, enviar um e-mail, salvar em um banco de dados, etc.
+
+  // Exemplo simples: exibir os dados na página
+  echo "<h2>Dados do Formulário</h2>";
+  echo "<p><strong>Nome:</strong> " . $name . "</p>";
+  echo "<p><strong>Email:</strong> " . $email . "</p>";
+  echo "<p><strong>Mensagem:</strong> " . $message . "</p>";
+}
+?>
+```
+Neste script PHP, verificamos se o método de requisição é POST, o que indica que o formulário foi enviado. Em seguida, obtemos os valores dos campos do formulário usando a variável global `$_POST` e atribuímos esses valores a variáveis individuais.
+
+Depois, você pode realizar as ações necessárias com os dados do formulário. Neste exemplo simples, estamos apenas exibindo os dados na página, mas você pode personalizar esse código para realizar ações como enviar um e-mail, salvar em um banco de dados, etc.
+
+Lembre-se de salvar o arquivo `processar-formulario.php` no mesmo diretório que o arquivo HTML do formulário.
+
+Ao enviar o formulário, os dados serão enviados para o script PHP `processar-formulario.php`, onde você pode processá-los conforme necessário.
 
 # 💖CARACTERISTICAS DA LINGUAGEM:
 ## ❤POSITIVAS:
