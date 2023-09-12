@@ -54,6 +54,10 @@ Escreva seu código usando o NetBeans (Ou qualquer outra IDE), após isso, você
 * ✅ HERANÇA
 * ✅ POLIMORFISMO
 
+# 📹VIDEOS DO YOUTUBE:
+* [ANO DE VOTAÇÃO COM PHP](https://youtu.be/wC-MZ7jF7eI?si=zHp-E5owLThIKQIP)
+* [CALCULANDO A MEDIA COM PHP POO](https://youtu.be/Bk-aLslgarE?si=vtZeGPYLjaKCh5he)
+
 ![](https://i.imgur.com/waxVImv.png)
 # 👀VISÃO PANORÂMICA:
 | PERGUNTA | RESPOSTA |
