@@ -10,7 +10,7 @@
 <img src="https://avatars.githubusercontent.com/u/30528867?s=280&v=4" align="center" width="280"> <br>
 
 # 🤷‍♂️REQUESITOS GERAIS:
-* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-ALGORITMO)
+* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL)
 * 🤯[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
 * 💻[INSTALAR O PHP STORM](https://www.jetbrains.com)
 * 💻[INSTALAR O XAMPP](https://www.apachefriends.org/pt_br/index.html)
