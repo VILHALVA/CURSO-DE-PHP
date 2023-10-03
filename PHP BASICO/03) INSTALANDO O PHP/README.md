@@ -1,4 +1,5 @@
 # INSTALANDO FERRAMENTAS
+## MODO TRADICIONAL:
 Aqui estão os passos para instalar o PHP, o Visual Studio Code e o XAMPP no seu sistema:
 
 1. **Instalando o PHP**:
@@ -50,3 +51,17 @@ Aqui estão os passos para instalar o PHP, o Visual Studio Code e o XAMPP no seu
    - Abra um navegador da web e acesse `http://localhost/seuarquivo.php`. Certifique-se de substituir `seuarquivo.php` pelo nome do seu arquivo PHP.
 
 Agora você deve ter o PHP, o Visual Studio Code e o XAMPP instalados e pronto para começar a desenvolver aplicativos web em PHP no seu ambiente local. Certifique-se de ler a documentação específica de cada ferramenta para aprender mais sobre suas funcionalidades e configurações.
+
+## 😉MODO DEPURADOR:
+### USANDO O XAMPP COM OUTRA IDE:
+Escreva seu código usando o NetBeans (Ou qualquer outra IDE), após isso, você precisa:
+* ✅ Abrir o XAMPP e dá start em "APACHE".
+* ✅ Salve o seu arquivo PHP (e HTML/CSS) em: "C:\xampp\htdocs\NOVA PASTA". Em "NOVA PASTA" coloque o nome da pasta que quizer.
+* ✅ Abra o seu navegador e digite: "localhost/NOVA PASTA". No lugar de "NOVA PASTA" coloque o nome da pasta que você criou.
+* 😎Pronto. É muito simples não é? É só usar e ser feliz.
+
+### USANDO APENAS O PHP STORM:
+* ✅Sim; Essa IDE funciona também como servidor. Nesse caso você não precisa instalar o XAMPP, apenas o PhpStorm.
+* ✅Para configurar basta apenas tentar executar o código PHP clicando em algum navegar da IDE. Ele irá dá o erro 502. Ao voltar para o PhpStorm, ele irá sugerir para você configurar o "PHP EXECUTAVEL". Clique no link do settings e coloque o diretorio que o arquivo "php.exe" está localizado.
+* ✅Caso você ainda não tenha o arquivo "php.exe" você pode baixar [CLICANDO AQUI](https://www.exefiles.com/pt-br/exe/php-exe/)
+* 😎Pronto. É muito simples não é? É só usar e ser feliz.
