@@ -2,63 +2,17 @@
 👨‍⚖️CURSO COMPRETO DE PHP.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=php) 
+
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://www.php.net/docs.php) <br>
 
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO-PHP%20BASICO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k)
-[![GitHub Repo stars](https://img.shields.io/badge/CURSO-PHP%20POO-03A9F4?logo=youtube)](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x) <br>
+[![GitHub Repo stars](https://img.shields.io/badge/-PHP%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k)
+[![GitHub Repo stars](https://img.shields.io/badge/-PHP%20POO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x)
 
 <img src="https://avatars.githubusercontent.com/u/30528867?s=280&v=4" align="center" width="280"> <br>
 
-# 🤷‍♂️REQUESITOS GERAIS:
-* 🤯[SABER LÓGICA DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PORTUGOL)
-* 🤯[SABER HTML E CSS](https://github.com/VILHALVA/CURSO-DE-HTML-CSS-JS)
-* 💻[INSTALAR O PHP STORM](https://www.jetbrains.com)
-* 💻[INSTALAR O XAMPP](https://www.apachefriends.org/pt_br/index.html)
-* 💻[INSTALAR O NETBEANS IDE](https://netbeans.apache.org/download/archive/index.html)
-* 💻[BAIXAR O JRE DO JAVA](https://www.oracle.com/br/java/technologies/downloads/#java8-windows)
-
-# 😉INSTRUÇÕES:
-## USANDO O XAMPP COM OUTRA IDE:
-Escreva seu código usando o NetBeans (Ou qualquer outra IDE), após isso, você precisa:
-* ✅ Abrir o XAMPP e dá start em "APACHE".
-* ✅ Salve o seu arquivo PHP (e HTML/CSS) em: "C:\xampp\htdocs\NOVA PASTA". Em "NOVA PASTA" coloque o nome da pasta que quizer.
-* ✅ Abra o seu navegador e digite: "localhost/NOVA PASTA". No lugar de "NOVA PASTA" coloque o nome da pasta que você criou.
-* 😎Pronto. É muito simples não é? É só usar e ser feliz.
-## USANDO APENAS O PHP STORM:
-* ✅Sim; Essa IDE funciona também como servidor. Nesse caso você não precisa instalar o XAMPP, apenas o PhpStorm.
-* ✅Para configurar basta apenas tentar executar o código PHP clicando em algum navegar da IDE. Ele irá dá o erro 502. Ao voltar para o PhpStorm, ele irá sugerir para você configurar o "PHP EXECUTAVEL". Clique no link do settings e coloque o diretorio que o arquivo "php.exe" está localizado.
-* ✅Caso você ainda não tenha o arquivo "php.exe" você pode baixar [CLICANDO AQUI](https://www.exefiles.com/pt-br/exe/php-exe/)
-* 😎Pronto. É muito simples não é? É só usar e ser feliz.
-
-# 😒TEMATICAS:
-## [PHP BÁSICO:](https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k)
-* ✅ OPERADORES ARIMÉTICOS, LÓGICOS E RELACIONAIS
-* ✅ VARIAVEIS E TIPOS PRIMITIVOS
-* ✅ INTEGRAÇÃO COM HTML (FORMULARIOS)
-* ✅ ESTRUTURA CONDICIONAL COMPOSTA
-* ✅ ESTRUTURA CONDICIONAL ANINHADA
-* ✅ ESTRUTURA CONDICIONAL SWITCH
-* ✅ ESTRUTURA DE REPETIÇÃO WHILE
-* ✅ ESTRUTURA DE REPETIÇÃO FOR
-* ✅ FUNÇÕES STRING
-* ✅ VETORES (VARIAVEIS COMPOSTAS 1)
-* ✅ METODOS (VARIAVEIS COMPOSTAS 2)
-* ✅ NOVIDADES DO PHP 7
-
-## [PHP POO:](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x)
-* ✅ CLASSES E OBJETOS
-* ✅ CONFIGURANDO VISIBILIDADE
-* ✅ METODOS GSC
-* ✅ PILARES DO POO
-* ✅ ENCAPSULAMENTO
-* ✅ HERANÇA
-* ✅ POLIMORFISMO
-
-# 📹VIDEOS DO YOUTUBE:
-* [ANO DE VOTAÇÃO COM PHP](https://youtu.be/wC-MZ7jF7eI?si=zHp-E5owLThIKQIP)
-* [CALCULANDO A MEDIA COM PHP POO](https://youtu.be/Bk-aLslgarE?si=vtZeGPYLjaKCh5he)
-
 ![](https://i.imgur.com/waxVImv.png)
+
 # 👀VISÃO PANORÂMICA:
 | PERGUNTA | RESPOSTA |
 | :---: | :---: |
@@ -516,6 +470,7 @@ Aqui está um exemplo de um formulário em HTML que envia os dados para um scrip
 Neste exemplo, temos um formulário de contato similar ao exemplo anterior. A diferença é que o atributo `action` do elemento `<form>` foi definido como `"processar-formulario.php"`, que é o nome do arquivo PHP onde iremos processar os dados do formulário.
 
 Agora, vamos criar o script PHP `processar-formulario.php` para receber os dados do formulário e realizar o processamento necessário. Crie um arquivo chamado `processar-formulario.php` com o seguinte conteúdo:
+
 ```php
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
