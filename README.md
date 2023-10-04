@@ -1,5 +1,5 @@
 # CURSO-DE-PHP
-👨‍⚖️CURSO COMPRETO DE PHP.
+👨‍⚖️PHP É UMA LINGUAGEM DE PROGRAMAÇÃO.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=php) 
