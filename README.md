@@ -2,13 +2,10 @@
 👨‍⚖️PHP É UMA LINGUAGEM DE PROGRAMAÇÃO.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=php) 
-
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://www.php.net/docs.php) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-PHP%20BASICO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k)
-[![GitHub Repo stars](https://img.shields.io/badge/-PHP%20POO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x) <br>
-
+[![GitHub Repo stars](https://img.shields.io/badge/-PHP%20POO-blueviolet)](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x) 
 [![GitHub Repo stars](https://img.shields.io/badge/-MODULO%2001-red)](https://youtube.com/playlist?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_&si=QoM1vt_-lAsbFmAk)
 
 <img src="https://avatars.githubusercontent.com/u/30528867?s=280&v=4" align="center" width="280"> <br>
