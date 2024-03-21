@@ -81,7 +81,6 @@ Em resumo, o PHP é amplamente utilizado no desenvolvimento web e é uma das lin
 - [CURSO CRIADO PELO "CURSO EM VIDEO":](https://www.youtube.com/@CursoemVideo)
   - [PHP BASICO](https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k)
   - [PHP POO](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x)
-  - [PHP MODERNO - MODULO 1](https://youtube.com/playlist?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_&si=QoM1vt_-lAsbFmAk)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://www.php.net/docs.php)
 - [VEJA O MANUAL](./MANUAL.md)
