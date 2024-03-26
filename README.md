@@ -86,6 +86,7 @@ Em resumo, o PHP é amplamente utilizado no desenvolvimento web e é uma das lin
 - [VEJA O MANUAL](./MANUAL.md)
 - [VEJA O MANUAL DO XAMPP](./XAMPP.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:PHP)
 
 
 
