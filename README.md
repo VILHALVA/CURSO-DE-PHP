@@ -78,7 +78,7 @@ Em resumo, o PHP é amplamente utilizado no desenvolvimento web e é uma das lin
 * **6 - Ausência de um Sistema de Tipagem Estrita:** Embora o PHP tenha introduzido recursos de tipagem forte e fraca em versões mais recentes, ele ainda não possui um sistema de tipagem estrita como algumas outras linguagens. Isso pode levar a erros difíceis de depurar e dificuldades na detecção de erros em tempo de compilação.
 
 ## SUBSIDIOS:
-- [CURSO CRIADO PELO "CURSO EM VIDEO":](https://www.youtube.com/@CursoemVideo)
+- [CURSO CRIADO PELO "CURSO EM VIDEO":](https://www.youtube.com/c/CursoemV%C3%ADdeo)
   - [PHP BASICO](https://www.youtube.com/playlist?list=PLHz_AreHm4dm4beCCCmW4xwpmLf6EHY9k)
   - [PHP POO](https://www.youtube.com/playlist?list=PLHz_AreHm4dmGuLII3tsvryMMD7VgcT7x)
   - [PHP MODERNO - MODULO 01](https://youtube.com/playlist?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_&si=QoM1vt_-lAsbFmAk)
