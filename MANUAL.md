@@ -82,4 +82,51 @@ Agora você pode usar o comando `php` em qualquer lugar no prompt de comando sem
 7. **Parar o servidor Apache (e MySQL)**:
    - Quando você terminar de usar o PHP, lembre-se de parar o servidor Apache (e MySQL, se necessário) através do painel de controle do pacote que você está usando.
 
+## COMO SUBIR UM SERVIDOR PHP USANDO O `PHP.EXE`?
+Você pode rodar um servidor PHP embutido diretamente através do próprio **`php.exe`**, sem a necessidade de configurar um servidor completo como Apache ou Nginx. O PHP tem um servidor de desenvolvimento embutido que é muito útil para testar e desenvolver aplicações localmente.
+
+1. **Abra o terminal ou prompt de comando** (cmd, PowerShell, ou outro terminal de sua preferência).
+   
+2. **Navegue até o diretório onde o arquivo PHP está localizado**, usando o comando `cd`. Por exemplo:
+
+   ```bash
+   cd C:\caminho\para\meus\arquivos
+   ```
+
+3. **Suba o servidor embutido** com o seguinte comando:
+
+   ```bash
+   php -S localhost:8000
+   ```
+
+   Aqui está o que esse comando faz:
+   - **`php`**: Chama o executável PHP.
+   - **`-S`**: Sinaliza que você quer iniciar o servidor embutido.
+   - **`localhost:8000`**: Define o endereço e a porta em que o servidor irá rodar. Você pode substituir `localhost` por seu IP local e a porta `8000` por outra de sua escolha.
+
+4. **Acesse seu navegador** e digite `http://localhost:8000` ou `http://127.0.0.1:8000` na barra de endereços. Agora, os arquivos PHP dentro do diretório em que você está serão executados quando acessados via navegador.
+
+   Por exemplo, se você tiver um arquivo chamado `index.php` no diretório, você poderá acessá-lo via `http://localhost:8000/index.php`.
+
+### EXECUTANDO EM UMA PORTA DIFERENTE:
+Se a porta `8000` já estiver em uso ou você quiser usar uma porta diferente, basta alterar o número da porta no comando:
+
+```bash
+php -S localhost:8080
+```
+
+### ESPECIFICANDO UM ARQUIVO OU PASTA PRINCIPAL:
+Por padrão, o PHP usará o arquivo `index.php` se estiver presente no diretório. Mas você pode especificar um arquivo de entrada diferente:
+
+```bash
+php -S localhost:8000 -t /caminho/para/o/diretorio/
+```
+
+Aqui, o **`-t`** define o diretório raiz do servidor.
+
+### CONFIGURAÇÕES ADICIONAIS:
+- Este servidor PHP embutido é ideal para desenvolvimento, mas **não deve ser usado em produção** porque ele não tem as otimizações e segurança de servidores dedicados como Apache ou Nginx.
+- Ele roda apenas em uma única thread, o que significa que pode processar apenas uma requisição por vez.
+
+## CONCLUSÃO:
 Esses são os passos básicos para iniciar e usar o PHP em um ambiente de desenvolvimento local. Lembre-se de que você pode precisar ajustar as configurações do servidor web (como o Apache) para garantir que o PHP seja processado corretamente. Além disso, ao desenvolver aplicativos PHP mais complexos, você pode precisar aprender sobre conceitos adicionais, como incluir arquivos, conectar-se a bancos de dados e manipular formulários.
