@@ -1,7 +1,7 @@
 # VARIÁVEIS E CONSTANTES EM PHP
 Em PHP, você pode trabalhar com variáveis e constantes para armazenar e manipular dados. Aqui estão as diferenças entre variáveis e constantes em PHP:
 
-## Variáveis:
+## VARIÁVEIS:
 1. **Declaração de Variáveis:**
    - As variáveis em PHP são declaradas com o prefixo `$`, seguido pelo nome da variável. Por exemplo: `$nome`, `$idade`.
 
@@ -21,7 +21,7 @@ Em PHP, você pode trabalhar com variáveis e constantes para armazenar e manipu
 3. **Escopo de Variáveis:**
    - O escopo de uma variável determina onde ela pode ser acessada. Variáveis podem ser locais (dentro de uma função ou bloco) ou globais (fora de funções).
 
-## Constantes:
+## CONSTANTES:
 1. **Declaração de Constantes:**
    - As constantes em PHP são definidas usando a função `define()`. Ao contrário das variáveis, as constantes são globais e não podem ser redefinidas após a definição.
 
@@ -43,8 +43,7 @@ Em PHP, você pode trabalhar com variáveis e constantes para armazenar e manipu
 4. **Convenção de Nomenclatura:**
    - É uma prática comum nomear constantes em letras maiúsculas e separar palavras com sublinhado.
 
-## Exemplo de Uso:
-
+## EXEMPLO DE USO:
 ```php
 // Variáveis
 $nome = "Ana";

@@ -1,9 +1,13 @@
-# Operadores Aritméticos em PHP: Conceitos, Exemplos e Explicações
+# OPERADORES ARITMÉTICOS EM PHP
+
+<img src="./IMAGENS/OPERADORES ARITMETICOS.png" align="center" width="400"> <br>
+<img src="./IMAGENS/ORDEM DE PRECEDENCIA.png" align="center" width="400"> <br>
+<img src="./IMAGENS/FUNCOES MATEMATICAS.png" align="center" width="400"> <br>
+<img src="./IMAGENS/USANDO O GET NA URL.png" align="center" width="400"> <br>
 
 Os operadores aritméticos são fundamentais em qualquer linguagem de programação, incluindo o PHP. Eles permitem realizar operações matemáticas em variáveis e valores, o que é essencial para cálculos em scripts PHP. Neste artigo, exploraremos os operadores aritméticos em PHP, forneceremos exemplos de código e explicações detalhadas sobre como usá-los.
 
-## Operadores Aritméticos Básicos
-
+## OPERADORES ARITMÉTICOS BÁSICOS:
 O PHP oferece os seguintes operadores aritméticos básicos:
 
 1. **Adição (+):** Utilizado para somar dois valores.
@@ -25,16 +29,14 @@ $divisao = $numero1 / $numero2; // $divisao contém 2
 $resto = $numero1 % $numero2; // $resto contém 0
 ```
 
-## Ordem de Precedência
-
+## ORDEM DE PRECEDÊNCIA:
 Em expressões matemáticas mais complexas, a ordem de execução dos operadores é importante. O PHP segue a ordem padrão de precedência de operadores matemáticos, onde a multiplicação e a divisão são realizadas antes da adição e subtração. No entanto, você pode usar parênteses para alterar a ordem de execução.
 
 ```php
 $resultado = (2 + 3) * 4; // $resultado contém 20 (a adição é feita primeiro)
 ```
 
-## Operadores de Incremento e Decremento
-
+## OPERADORES DE INCREMENTO E DECREMENTO:
 Além dos operadores aritméticos básicos, o PHP também oferece operadores de incremento e decremento:
 
 1. **Incremento (++):** Aumenta o valor de uma variável em 1 unidade.
@@ -53,8 +55,7 @@ $valor = 10;
 $resultado = $valor++ + 5; // $resultado contém 15, $valor agora é 11
 ```
 
-## Conclusão
-
+## CONCLUSÃO:
 Os operadores aritméticos são uma parte essencial da linguagem PHP e são usados para realizar cálculos matemáticos em seus scripts. Compreender como esses operadores funcionam e como aplicá-los corretamente é fundamental para a programação em PHP.
 
 Além dos operadores mencionados, o PHP oferece muitos outros operadores para realizar tarefas específicas, como operadores de comparação, operadores lógicos e operadores de atribuição. À medida que você aprimora seus conhecimentos em PHP, você pode explorar esses operadores adicionais para criar scripts mais complexos e poderosos. Lembre-se de praticar regularmente para aprimorar suas habilidades na linguagem PHP. 

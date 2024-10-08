@@ -1,4 +1,11 @@
 # HERANÇA PARTE 2
+
+<img src="./IMAGENS/HERANÇA 01.png" align="center" width="400"> <br>
+<img src="./IMAGENS/HERANÇA 02.png" align="center" width="400"> <br>
+<img src="./IMAGENS/ARVORE GENEALOGICA.png" align="center" width="400"> <br>
+<img src="./IMAGENS/ANCESTRAIS.png" align="center" width="400"> <br>
+<img src="./IMAGENS/ABSTRACAO.png" align="center" width="400"> <br>
+
 Na parte 2 da herança em programação orientada a objetos (POO) em PHP, abordaremos tópicos mais avançados, incluindo:
 
 1. Uso de métodos `parent`.

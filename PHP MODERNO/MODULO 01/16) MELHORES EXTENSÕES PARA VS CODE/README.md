@@ -1,7 +1,7 @@
 # MELHORES EXTENSÕES PARA VS CODE
 O Visual Studio Code (VS Code) é conhecido por sua extensibilidade, e existem muitas extensões disponíveis para aprimorar sua experiência de desenvolvimento. Aqui estão algumas das melhores extensões para o VS Code, abrangendo diferentes linguagens e finalidades:
 
-## **1. Extensões para Linguagens Gerais:**
+## **1. EXTENSÕES PARA LINGUAGENS GERAIS:**
 - **[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer):**
   - Coloriza pares de colchetes para facilitar a visualização da correspondência.
 
@@ -11,7 +11,7 @@ O Visual Studio Code (VS Code) é conhecido por sua extensibilidade, e existem m
 - **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens):**
   - Aprimora as funcionalidades do Git integradas ao VS Code, fornecendo informações detalhadas sobre os commits e a linha do tempo.
 
-## **2. Extensões para Desenvolvimento Web:**
+## **2. EXTENSÕES PARA DESENVOLVIMENTO WEB:**
 - **[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer):**
   - Cria um servidor local para desenvolvimento web e atualiza automaticamente a página ao salvar os arquivos.
 
@@ -21,7 +21,7 @@ O Visual Studio Code (VS Code) é conhecido por sua extensibilidade, e existem m
 - **[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode):**
   - Mantém o código formatado de maneira consistente para várias linguagens.
 
-## **3. Extensões para Linguagens Específicas:**
+## **3. EXTENSÕES PARA LINGUAGENS ESPECÍFICAS:**
 - **[Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client):**
   - Oferece recursos avançados para PHP, como IntelliSense, renomeação de código e análise de tipo.
 
@@ -31,14 +31,14 @@ O Visual Studio Code (VS Code) é conhecido por sua extensibilidade, e existem m
 - **[Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome):**
   - Permite a depuração de código JavaScript e TypeScript no navegador Chrome.
 
-## **4. Extensões para Desenvolvimento em Nuvem:**
+## **4. EXTENSÕES PARA DESENVOLVIMENTO EM NUVEM:**
 - **[Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account):**
   - Facilita a autenticação e gerenciamento de recursos do Azure diretamente no VS Code.
 
 - **[AWS Toolkit](https://marketplace.visualstudio.com/items?itemName=amazonwebservices.aws-toolkit-vscode):**
   - Fornece suporte para desenvolvimento e interação com serviços da AWS.
 
-## **5. Extensões para Produtividade:**
+## **5. EXTENSÕES PARA PRODUTIVIDADE:**
 - **[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner):**
   - Executa trechos de código ou arquivos inteiros para várias linguagens.
 

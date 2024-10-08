@@ -1,15 +1,13 @@
-# Estruturas Condicionais If-Else em PHP: Conceitos, Exemplos e Explicações
+# ESTRUTURAS CONDICIONAIS IF-ELSE EM PHP
 
 As estruturas condicionais `if` e `else` são fundamentais na programação, pois permitem que você tome decisões com base em condições específicas. Neste artigo, vamos explorar os conceitos por trás das estruturas condicionais `if` e `else` em PHP, fornecer exemplos de código e explicar como usá-las de maneira eficaz.
 
-## O que são Estruturas Condicionais If-Else?
-
+## O QUE SÃO ESTRUTURAS CONDICIONAIS IF-ELSE?
 As estruturas condicionais `if` e `else` são usadas para controlar o fluxo de execução de um programa com base em condições. Elas permitem que você execute blocos de código se uma determinada condição for avaliada como verdadeira (true) e executem outros blocos de código se a condição for avaliada como falsa (false).
 
 Em PHP, as estruturas condicionais `if` e `else` são essenciais para criar lógica em seu código, permitindo que seu programa tome decisões com base em variáveis, entradas do usuário ou quaisquer outras condições que você definir.
 
-## Sintaxe Básica do `if` e `else`
-
+## SINTAXE BÁSICA DO `IF` E `ELSE`
 A sintaxe básica do `if` e `else` em PHP é a seguinte:
 
 ```php
@@ -24,8 +22,7 @@ if (condição) {
 - O bloco de código dentro do `if` é executado se a condição for verdadeira.
 - O bloco de código dentro do `else` é executado se a condição for falsa.
 
-## Exemplos de `if` e `else`
-
+## EXEMPLOS DE `IF` E `ELSE`
 Aqui estão exemplos práticos de como usar estruturas `if` e `else` em PHP:
 
 ```php
@@ -52,8 +49,7 @@ if ($nota >= 6) {
 
 Neste exemplo, o código verifica se a variável `$nota` é maior ou igual a 6 e exibe "Aprovado" se a condição for verdadeira ou "Reprovado" se for falsa.
 
-## Estruturas Condicionais Aninhadas
-
+## ESTRUTURAS CONDICIONAIS ANINHADAS
 Você também pode aninhar estruturas condicionais `if` e `else` para lidar com cenários mais complexos. Por exemplo:
 
 ```php
@@ -72,8 +68,7 @@ if ($nota >= 6) {
 
 Neste exemplo, o código verifica a nota e, se não for maior ou igual a 6, verifica se a nota é maior ou igual a 4 para determinar se o aluno está em recuperação.
 
-## Conclusão
-
+## CONCLUSÃO
 As estruturas condicionais `if` e `else` são essenciais na programação em PHP, permitindo que você tome decisões com base em condições específicas. Compreender como essas estruturas funcionam e como aplicá-las é fundamental para criar scripts que respondam de maneira apropriada a diferentes cenários.
 
 À medida que você avança em seus estudos de PHP, você pode usar estruturas condicionais mais complexas, como `elseif` para lidar com várias condições e criar lógica de programação mais sofisticada em seus aplicativos. Praticar regularmente é a melhor maneira de aprimorar suas habilidades em programação em PHP. 

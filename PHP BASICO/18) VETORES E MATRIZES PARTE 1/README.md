@@ -1,17 +1,14 @@
-# Vetores e Matrizes em PHP (Parte 1): Conceitos Básicos e Exemplos
+# VETORES E MATRIZES EM PHP (PARTE 1)
 
 Vetores (também chamados de arrays) e matrizes são estruturas de dados fundamentais em PHP que permitem armazenar coleções de valores. Nesta Parte 1 do guia sobre vetores e matrizes em PHP, vamos explorar os conceitos básicos, criar vetores simples e fornecer exemplos para ilustrar esses conceitos.
 
-## O que são Vetores e Matrizes em PHP?
-
+## O QUE SÃO VETORES E MATRIZES EM PHP?
 Em PHP, um vetor (array) é uma variável que pode conter múltiplos valores. Cada valor em um vetor é identificado por uma chave, que pode ser um número inteiro ou uma string. Matrizes são uma forma especial de vetores associativos, onde as chaves são sempre números inteiros sequenciais, começando por 0.
 
-## Criando Vetores Simples
-
+## CRIANDO VETORES SIMPLES
 Vamos começar criando vetores simples em PHP.
 
-### Vetores Indexados
-
+### VETORES INDEXADOS
 Um vetor indexado usa números inteiros como chaves para acessar os elementos. Você pode criar um vetor indexado da seguinte maneira:
 
 ```php
@@ -31,8 +28,7 @@ echo $vetor[0]; // Isso imprimirá 10
 echo $vetor[3]; // Isso imprimirá 40
 ```
 
-### Vetores Associativos
-
+### VETORES ASSOCIATIVOS
 Um vetor associativo usa chaves de strings para acessar os elementos. Você pode criar um vetor associativo da seguinte maneira:
 
 ```php
@@ -52,8 +48,7 @@ echo $cores["primeira"]; // Isso imprimirá "vermelho"
 echo $cores["terceira"]; // Isso imprimirá "azul"
 ```
 
-## Funções para Vetores
-
+## FUNÇÕES PARA VETORES
 PHP oferece várias funções integradas para trabalhar com vetores, incluindo:
 
 - `count($array)`: Retorna o número de elementos em um vetor.
@@ -85,6 +80,5 @@ if (in_array("banana", $frutas)) {
 }
 ```
 
-## Conclusão
-
+## CONCLUSÃO
 Vetores e matrizes são estruturas de dados essenciais em PHP para armazenar coleções de valores. Você pode criar vetores indexados ou associativos, acessar elementos por índice ou chave e utilizar funções integradas para manipulá-los. À medida que você avança em seus estudos de PHP, aprenderá a usar essas estruturas de dados para realizar tarefas mais complexas, como processar listas de dados e criar estruturas de dados mais sofisticadas. Praticar regularmente é a melhor maneira de aprimorar suas habilidades em trabalhar com vetores e matrizes em PHP.

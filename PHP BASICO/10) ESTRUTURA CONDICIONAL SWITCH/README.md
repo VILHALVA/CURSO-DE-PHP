@@ -1,15 +1,13 @@
-# Estrutura Condicional Switch em PHP: Conceitos, Exemplos e Explicações
+# ESTRUTURA CONDICIONAL SWITCH EM PHP
 
 A estrutura condicional `switch` é uma ferramenta poderosa em PHP que permite selecionar entre várias alternativas com base no valor de uma expressão. Neste artigo, vamos explorar os conceitos por trás da estrutura condicional `switch`, fornecer exemplos de código e explicar como usá-la de maneira eficaz.
 
-## O que é a Estrutura Condicional Switch?
-
+## O QUE É A ESTRUTURA CONDICIONAL SWITCH?
 A estrutura `switch` é uma construção condicional que permite escolher entre várias ações ou blocos de código com base no valor de uma expressão. É uma alternativa mais limpa e legível quando você precisa comparar uma variável com múltiplos valores possíveis.
 
 A estrutura `switch` é frequentemente usada quando você tem um valor a ser testado em relação a uma série de valores possíveis e deseja executar um bloco de código com base em qual valor corresponde ao valor testado.
 
-## Sintaxe Básica do `switch`
-
+## SINTAXE BÁSICA DO `SWITCH`
 A estrutura `switch` em PHP segue a seguinte sintaxe básica:
 
 ```php
@@ -31,8 +29,7 @@ switch (expressao) {
 - `break` é usado para sair da estrutura `switch` após a execução do bloco de código correspondente.
 - `default` é um caso opcional que é executado quando nenhum dos casos corresponde à expressão.
 
-## Exemplo de `switch`
-
+## EXEMPLO DE `SWITCH`
 Aqui está um exemplo prático de como usar a estrutura `switch`:
 
 ```php
@@ -57,10 +54,8 @@ switch ($dia_da_semana) {
 
 Neste exemplo, a variável `$dia_da_semana` é comparada com vários casos. Dependendo do valor da variável, a mensagem apropriada é exibida.
 
-## Dica
-
+## DICA
 Lembre-se de usar `break` após cada bloco `case`. Isso garante que a execução seja interrompida após encontrar um caso correspondente. Se você não usar `break`, o PHP continuará executando os blocos subsequentes, mesmo se a expressão correspondente já tiver sido encontrada.
 
-## Conclusão
-
+## CONCLUSÃO
 A estrutura condicional `switch` é uma ferramenta eficaz para lidar com múltiplas alternativas em PHP. Ela ajuda a tornar o código mais legível e organizado quando você precisa comparar uma expressão com vários valores possíveis. À medida que você avança em sua jornada de programação em PHP, a estrutura `switch` se torna uma parte valiosa de seu conjunto de habilidades, permitindo que você crie scripts mais complexos e poderosos.

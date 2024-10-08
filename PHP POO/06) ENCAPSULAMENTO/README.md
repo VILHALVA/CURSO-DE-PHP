@@ -1,4 +1,15 @@
 # ENCAPSULAMENTO
+
+<img src="./IMAGENS/3 PILARES DO POO.png" align="center" width="400"> <br>
+<img src="./IMAGENS/CONCEITO DE ENCAPSULAMENTO.png" align="center" width="400"> <br>
+<img src="./IMAGENS/VANTAGENS AO ENCAPSULAR.png" align="center" width="400"> <br>
+<img src="./IMAGENS/INTERFACE.png" align="center" width="400"> <br>
+<img src="./IMAGENS/CODIGO 1.png" align="center" width="400"> <br>
+<img src="./IMAGENS/CODIGO 2.png" align="center" width="400"> <br>
+<img src="./IMAGENS/CODIGO 3.png" align="center" width="400"> <br>
+<img src="./IMAGENS/CODIGO 4.png" align="center" width="400"> <br>
+<img src="./IMAGENS/CODIGO 5.png" align="center" width="400"> <br>
+
 O encapsulamento é um dos conceitos fundamentais da programação orientada a objetos (POO) e refere-se à prática de ocultar os detalhes internos de uma classe, permitindo o acesso controlado aos atributos e métodos dessa classe. O encapsulamento é alcançado por meio da definição de visibilidade de membros de classe (atributos e métodos) como `public`, `protected` ou `private`. Vou explicar como esses níveis de visibilidade afetam o encapsulamento em PHP:
 
 1. **Public**: Membros com visibilidade pública são acessíveis de qualquer lugar, tanto de dentro quanto de fora da classe. Isso significa que qualquer código externo pode acessar e modificar esses membros diretamente. O encapsulamento não é aplicado a membros públicos.

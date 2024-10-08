@@ -1,13 +1,11 @@
-# Funções em PHP (Parte 1): Conceitos, Exemplos e Explicações
+# FUNÇÕES EM PHP (PARTE 1)
 
 As funções são blocos de código reutilizável que realizam tarefas específicas. Em PHP, as funções desempenham um papel fundamental na organização e modularização do código, permitindo que você quebre um programa em partes menores e mais gerenciáveis. Neste artigo, vamos explorar os conceitos por trás das funções em PHP, fornecer exemplos de código e explicar como usá-las de maneira eficaz.
 
-## O que são Funções em PHP?
-
+## O QUE SÃO FUNÇÕES EM PHP?
 Uma função em PHP é um bloco de código que executa uma tarefa específica quando chamado. As funções são usadas para organizar o código, melhorar a legibilidade, reduzir a duplicação de código e permitir a reutilização de lógica. Em PHP, existem funções embutidas (como `echo`, `strlen`, etc.) e funções definidas pelo usuário.
 
-## Sintaxe Básica de Função
-
+## SINTAXE BÁSICA DE FUNÇÃO
 A sintaxe básica para criar uma função em PHP é a seguinte:
 
 ```php
@@ -19,8 +17,7 @@ function nome_da_funcao() {
 - `nome_da_funcao` é o nome que você escolhe para sua função.
 - O código da função é colocado entre as chaves `{}`.
 
-## Exemplo de Função Simples
-
+## EXEMPLO DE FUNÇÃO SIMPLES
 Vamos criar uma função simples que exibe "Olá, Mundo!" quando chamada:
 
 ```php
@@ -35,8 +32,7 @@ Para chamar a função, você pode simplesmente usar seu nome seguido de parênt
 ola_mundo(); // Isso exibirá "Olá, Mundo!"
 ```
 
-## Passagem de Parâmetros
-
+## PASSAGEM DE PARÂMETROS
 As funções em PHP podem receber parâmetros, que são valores que você passa para a função para que ela os use em sua lógica. Os parâmetros são especificados entre os parênteses no cabeçalho da função.
 
 ```php
@@ -51,8 +47,7 @@ Você pode chamar a função e passar um valor para o parâmetro:
 saudacao("João"); // Isso exibirá "Olá, João!"
 ```
 
-## Retorno de Valores
-
+## RETORNO DE VALORES
 As funções também podem retornar valores. Você usa a palavra-chave `return` para especificar o valor que a função deve retornar.
 
 ```php
@@ -68,6 +63,5 @@ Você pode chamar a função e armazenar o valor retornado em uma variável:
 $total = soma(5, 3); // $total agora é igual a 8
 ```
 
-## Conclusão
-
+## CONCLUSÃO
 As funções são uma parte fundamental da programação em PHP e desempenham um papel importante na criação de código organizado e reutilizável. À medida que você avança em seus estudos de PHP, você aprenderá a criar funções mais complexas e a usar funções definidas pelo usuário em combinação com funções embutidas para criar aplicativos mais poderosos. Praticar regularmente é a melhor maneira de aprimorar suas habilidades em programação em PHP.

@@ -1,5 +1,5 @@
 # O PHP POR DENTRO
-## 1. **Comando PHP no Contexto HTML:**
+## 1. **COMANDO PHP NO CONTEXTO HTML:**
    Quando você incorpora o PHP em um documento HTML, você está criando páginas da web dinâmicas, onde o conteúdo pode ser gerado no servidor antes de ser enviado para o navegador. Aqui está um exemplo simples de como você pode usar o PHP no contexto HTML:
 
     ```html
@@ -40,7 +40,7 @@
 
     Quando esse código é executado em um servidor PHP, ele gera uma página HTML dinâmica com o conteúdo gerado pelo PHP. Lembre-se de que o código PHP é processado no servidor antes de ser enviado ao navegador, então, quando a página chega ao navegador, ela contém HTML puro. Isso permite criar páginas web que respondem a dados dinâmicos e interações do usuário.
 
-## 2. **Código Base em HTML5:**
+## 2. **CÓDIGO BASE EM HTML5:**
    HTML5 é a quinta revisão importante da linguagem de marcação HTML, e é usada para estruturar o conteúdo das páginas web. Ao incorporar o PHP em uma estrutura HTML5, você pode criar páginas dinâmicas. Aqui está um exemplo básico de um código base em HTML5 com algumas adições do PHP:
 
     ```html
@@ -89,7 +89,7 @@
 
     Quando este código é executado em um servidor PHP, ele gera uma página HTML5 dinâmica com conteúdo dinâmico gerado pelo PHP. Isso demonstra como o PHP pode ser usado para tornar suas páginas web mais interativas e personalizadas.
 
-## 3. **Script JavaScript:**
+## 3. **SCRIPT JAVASCRIPT:**
    O PHP frequentemente trabalha em conjunto com JavaScript para criar páginas web dinâmicas e interativas. JavaScript é uma linguagem de programação do lado do cliente, enquanto o PHP é executado no servidor. Aqui está um exemplo simples que incorpora JavaScript em um script PHP dentro de uma página HTML:
 
     ```html
@@ -145,7 +145,7 @@
 
     Essa interação entre PHP e JavaScript permite que você crie páginas web que respondam dinamicamente tanto no servidor quanto no lado do cliente. O PHP pode gerar conteúdo personalizado no servidor, enquanto o JavaScript pode fornecer interações e atualizações em tempo real no navegador.
 
-## 4. **A Tag `<script>` para PHP?:**
+## 4. **A TAG `<SCRIPT>` PARA PHP?:**
    A tag `<script>` no HTML é normalmente usada para incorporar scripts JavaScript, não para códigos PHP. O PHP é uma linguagem de servidor, enquanto o JavaScript é uma linguagem de cliente que é executada no navegador do usuário. No entanto, algumas pessoas podem usar a tag `<script>` de maneiras específicas para incluir código PHP no meio de um documento HTML.
 
     Aqui está um exemplo simples que ilustra o uso da tag `<script>` para incorporar código PHP:
@@ -190,7 +190,7 @@
 
     Embora isso seja possível, essa prática é menos comum e pode tornar o código menos legível. A abordagem mais convencional é usar o PHP para gerar o conteúdo do lado do servidor e o JavaScript para manipular o conteúdo no lado do cliente, mantendo as responsabilidades bem separadas.
 
-## 5. **Funcionamento no PHP5:**
+## 5. **FUNCIONAMENTO NO PHP5:**
    O PHP 5 foi uma versão importante da linguagem PHP, e embora tenha sido amplamente utilizada, ela foi substituída por versões mais recentes, como PHP 7. O PHP 5 trouxe várias melhorias significativas em relação às versões anteriores e estabeleceu a base para muitos dos recursos que são ainda mais aprimorados nas versões subsequentes.
 
     Alguns aspectos chave do funcionamento do PHP 5 incluem:
@@ -227,7 +227,7 @@
 
     É importante notar que, embora o PHP 5 tenha sido amplamente utilizado, ele atingiu o fim do suporte oficial em dezembro de 2018. Recomenda-se a migração para versões mais recentes, como PHP 7 ou superior, para aproveitar melhorias de desempenho, segurança e novos recursos de linguagem.
 
-## 6. **Delimitando com Supertag e Outras Formas:**
+## 6. **DELIMITANDO COM SUPERTAG E OUTRAS FORMAS:**
    Em PHP, a "supertag" refere-se à forma de delimitar o código PHP no meio de um documento HTML. A forma mais comum de delimitar o código PHP é usando `<?php ... ?>`, mas existem outras formas, incluindo a supertag `<?= ... ?>`, conhecida como "short echo tag" ou "tag de impressão curta".
 
     Aqui estão alguns exemplos de como você pode delimitar o código PHP em um documento HTML:
@@ -263,7 +263,7 @@
 
     O uso de short tags também pode afetar a interoperabilidade com XML, caso você esteja incorporando código PHP em documentos XML. Por essas razões, a forma `<?php ... ?>` é considerada mais segura e mais amplamente suportada.
 
-## 7. **Short Tag PHP:**
+## 7. **SHORT TAG PHP:**
     As "short tags" em PHP são uma forma alternativa de delimitar o código PHP no meio de um documento, permitindo que você use `<?` e `?>` em vez de `<?php` e `?>`. No entanto, é importante notar que o uso de short tags pode variar dependendo das configurações do servidor e pode não ser suportado em todos os ambientes.
 
     Aqui está um exemplo de como você pode usar short tags para imprimir "Olá, Mundo!":
@@ -300,7 +300,7 @@
 
     Se estiver desenvolvendo um código que será compartilhado ou distribuído, é uma prática mais segura evitar o uso de short tags e aderir à forma padrão `<?php ... ?>` para garantir a consistência em diferentes ambientes.
 
-## 8. **Testando no OnlinePHP.io:**
+## 8. **TESTANDO NO ONLINEPHP.IO:**
     O OnlinePHP.io é uma plataforma online que permite que você teste pequenos trechos de código PHP sem a necessidade de configurar um servidor local. Você pode acessar o site [OnlinePHP.io](https://www.onlinephp.io/) para começar a testar o seu código PHP.
 
     Aqui estão alguns passos básicos para testar o código PHP no OnlinePHP.io:
@@ -322,11 +322,10 @@
 
     A utilização de plataformas online para testar código PHP é conveniente, especialmente para testes rápidos e pequenos trechos de código. Lembre-se de que, para projetos mais extensos, é recomendável configurar um ambiente de desenvolvimento local usando servidores como XAMPP, WampServer ou outros, para uma experiência mais completa e robusta.
 
-## 9. **Testando no Servidor Local:**
+## 9. **TESTANDO NO SERVIDOR LOCAL:**
    Testar o código PHP em um servidor local é uma prática comum durante o desenvolvimento web. Isso permite que você simule um ambiente de produção em seu próprio computador. Vamos considerar dois dos servidores locais mais populares, XAMPP e WampServer, para testar seu código PHP.
 
     ### Usando XAMPP:
-
     1. **Baixe e Instale o XAMPP:**
     - Baixe o XAMPP no [site oficial](https://www.apachefriends.org/index.html) e siga as instruções de instalação para o seu sistema operacional.
 
@@ -340,7 +339,6 @@
     - Abra um navegador web e acesse `http://localhost/seuarquivo.php`, substituindo `seuarquivo.php` pelo nome do seu arquivo PHP.
 
     ### Usando WampServer:
-
     1. **Baixe e Instale o WampServer:**
     - Baixe o WampServer no [site oficial](https://www.wampserver.com/en/) e siga as instruções de instalação para o seu sistema operacional.
 
@@ -355,7 +353,7 @@
 
     Ao seguir esses passos, você poderá testar e depurar seu código PHP localmente antes de implantá-lo em um servidor de produção. Certifique-se de que seu servidor local esteja em execução sempre que estiver trabalhando em seus projetos PHP.
 
-## 10. **Diferenciando Código Cliente e Servidor:**
+## 10. **DIFERENCIANDO CÓDIGO CLIENTE E SERVIDOR:**
     É crucial entender a diferença entre código executado no lado do cliente (geralmente JavaScript) e código executado no lado do servidor (geralmente PHP). Aqui estão as principais distinções:
 
     ### Lado do Cliente (JavaScript):
@@ -391,7 +389,7 @@
 
     Ao diferenciar o código do lado do cliente e do servidor, você pode criar aplicações web mais eficientes e seguras. As operações que afetam a segurança, a lógica de negócios e o processamento de dados confidenciais devem ser realizadas no lado do servidor, enquanto o lado do cliente é mais adequado para interatividade e resposta rápida às ações do usuário.
 
-## 11. **Capturando a Data Atual do Servidor PHP:**
+## 11. **CAPTURANDO A DATA ATUAL DO SERVIDOR PHP:**
    Para capturar a data atual no servidor usando PHP, você pode usar a função `date()`. Essa função permite formatar a data e hora de várias maneiras. Aqui está um exemplo simples que mostra como capturar e exibir a data atual:
 
     ```php
@@ -417,7 +415,7 @@
 
     Escolha o formato que melhor se adequa às suas necessidades. Experimente diferentes formatos para obter o resultado desejado.
 
-## 12. **Ajustando o Fuso Horário:**
+## 12. **AJUSTANDO O FUSO HORÁRIO:**
    Ao trabalhar com datas em PHP, é importante configurar o fuso horário para garantir que as datas e horas exibidas estejam corretas. O PHP usa o fuso horário padrão do servidor por padrão, mas você pode alterá-lo conforme necessário. Você pode configurar o fuso horário usando a função `date_default_timezone_set()`.
 
     Aqui está um exemplo de como você pode ajustar o fuso horário para "America/Sao_Paulo" (fuso horário do Brasil):
@@ -445,7 +443,7 @@
 
     Certifique-se de ajustar o fuso horário de acordo com a localização geográfica relevante para garantir a precisão nas operações de data e hora.
 
-## 13. **Treino para Aprender de Verdade:**
+## 13. **TREINO PARA APRENDER DE VERDADE:**
    Para aprender PHP de forma eficaz, é importante adotar uma abordagem prática e envolvente. Aqui estão algumas sugestões para um treino efetivo:
 
     1. **Projeto Prático:**
