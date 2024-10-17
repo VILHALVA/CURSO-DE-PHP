@@ -84,9 +84,9 @@ Em resumo, o PHP é amplamente utilizado no desenvolvimento web e é uma das lin
   - [PHP MODERNO - MODULO 01](https://youtube.com/playlist?list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_&si=QoM1vt_-lAsbFmAk)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://www.php.net/docs.php)
-- [VEJA O MANUAL](./MANUAL.md)
-- [VEJA O MANUAL DO XAMPP](./XAMPP.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA O MANUAL](./MANUAL.md)
+- [VEJA O APÊNDICE](./APENDICE.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=+topic:PHP)
 
 
