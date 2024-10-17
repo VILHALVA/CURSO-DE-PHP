@@ -1,4 +1,4 @@
-# PHP - MANUAL
+# MANUAL
 ## COMO INSTALAR?
 Para instalar o Apache e o PHP em um ambiente de desenvolvimento, você pode usar pacotes como XAMPP, WampServer ou instalar individualmente o Apache e o PHP. Aqui estão algumas maneiras de fazer isso:
 
