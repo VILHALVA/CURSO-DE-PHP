@@ -47,7 +47,7 @@ Aqui, o **`-t`** define o diretório raiz do servidor.
 
 ---
 
-## INSTALAÇÃO DO COMPOSER
+## INSTALAÇÃO DO COMPOSER:
 ### WINDOWS:
 1. Acesse o site oficial do Composer: [getcomposer.org](https://getcomposer.org/)
 2. Baixe o instalador para Windows: Clique em **Download** e escolha o instalador "Composer-Setup.exe".
